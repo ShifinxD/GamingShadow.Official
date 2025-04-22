@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="shortcut icon" href="https://cdn.bio.link/uploads/profile_pictures/2025-02-07/2aNkUOoL5DuNLIuqfQWdGIBLTKDyKhO3.png" type="image/webp">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="container">
+      <a href="#" class="logo">Gaming Shadow</a>
+      <ul class="nav-links">
+        <li><a href="index.html"target="_blank" rel="noopener noreferrer">Home</a></li>
+        <li><a href="About.html" class="active">About</a></li>
+        <li><a href="Service.html"target="_blank" rel="noopener noreferrer">Services</a></li>
+        <li><a href="Contact.html"target="_blank" rel="noopener noreferrer">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>We are a team of passionate individuals dedicated to creating amazing experiences.</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="about-content">
+    <div class="container">
+      <div class="about-text">
+        <h2>Our Story</h2>
+        <p>Founded in 2024, we started as a small team with a big dream. Over the years, we've grown into a trusted name in the industry, delivering innovative solutions to our clients.</p>
+        <p>Our mission is to empower businesses and individuals through technology, creativity, and collaboration and then published in 2025.</p>
+      </div>
+      <div class="about-image">
+        <img src="Logo.jpg" alt="Our Team">
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team">
+    <div class="container">
+      <h2>Meet Our Team</h2>
+      <div class="team-members">
+        <div class="member">
+          <img src="aboutpage_assets/photo_6125030458732430579_m.jpg" alt="Carl Jhonson">
+          <h3>Carl Jhonson</h3>
+          <p>CEO & Founder</p>
+        </div>
+        <div class="member">
+          <img src="aboutpage_assets/photo_6125030458732430578_x.jpg" alt="Franklin Clinton">
+          <h3>Franklin Clinton</h3>
+          <p>Creative Director</p>
+        </div>
+        <div class="member">
+          <img src="aboutpage_assets/photo_6125030458732430577_x.jpg" alt="Michael De Santa">
+          <h3>Michael De Santa</h3>
+          <p>Lead Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <a href="github.io" class="no-underline">&copy; 2025 Gaming Shadow. All rights reserved.</a>
+    </div>
+  </footer>
+<style>
+    /* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color:#292929;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navigation Bar */
+nav {
+  background:#000000;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+nav .nav-links a.active {
+  color: #ff0000;
+}
+
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle .bar {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  margin: 4px 0;
+}
+
+/* Hero Section */
+.hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* About Content */
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Team Section */
+.team {
+  background: #f4f4f4;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.member {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.member img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.member h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.member p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Footer */
+footer {
+  background: #292929;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #292929;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .team-members {
+    flex-direction: column;
+  }
+}
+.no-underline {
+  text-decoration: none;
+  color: #fff;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+  color: #aaa;
+}
+
+</style>
+  <!-- JavaScript for Mobile Menu -->
+  <script>
+    // Mobile Menu Toggle
+const mobileMenu = document.getElementById('mobile-menu');
+const navLinks = document.querySelector('.nav-links');
+
+mobileMenu.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+  </script>
+</body>
+</html>
